@@ -1,45 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CookScript</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CookScript</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="white" />
+        <link rel="apple-touch-icon" href="images/logo3.png" />
+    </head>
 
-<body>
-    <header>
-        <img class="logo" src="/images/logo.png" alt="logo do site">
-        <img class="frase" src="/images/frase.png" alt="">
-        <div>
-            <img class="icons" src="/images/Instagram_icon.png" alt="">
-            <img class="icons" src="/images/Youtube_icon.png" alt="">
-            <img class="icons" src="/images/Facebook_icon.png" alt="">
+    <body>
+        <header>
+            <a href="index.html"> <img class="logo" src="/images/logo.png" alt="logo do site"></a>
+            <img class="frase" src="/images/frase.png" alt="">
+            <div>
+                <img class="icons" src="/images/Instagram_icon.png" alt="">
+                <img class="icons" src="/images/Youtube_icon.png" alt="">
+                <img class="icons" src="/images/Facebook_icon.png" alt="">
+            </div>
+        </header>
+        <div class="faixa">
+            <p></p>
         </div>
-    </header>
-    <div class="faixa">
-        <p></p>
-    </div>
 
-    <div class="content">
+        <div class="content">
+            <h2>O que sua fome pede?</h2>
 
-        <div class="cards">
-            
-            <div>
-                <img class="card-images" src="/images/card_massas.jpg" alt="">
+            <div class="cards">
+                <div>
+                    <a href="massas">
+                        <img class="card-images" src="/images/card_massas.jpg" alt="">
+                    </a>
+                    <p class="card-text">Scripts de Massas</p>
+                </div>
+
+                <div>
+                    <a href="doces">
+                        <img class="card-images" src="/images/card_doces.jpg" alt="">
+                    </a>
+                    <p class="card-text">Scripts de Doces</p>
+                </div>
+
+                <div>
+                    <a href="carne">
+                        <img class="card-images" src="/images/card_carnes.jpg" alt="">
+                    </a>
+                    <p class="card-text">Scripts de Carnes</p>
+                </div>
             </div>
-
-            <div>
-                <img class="card-images" src="/images/card_doces.jpg" alt="">
-            </div>
-
-            <div>
-                <img class="card-images" src="/images/card_carnes.jpg" alt="">
-            </div>
-
         </div>
-    </div>
-</body>
 
-</html>
+
+        <script src="js/main.js"></script>
+    </body>
+
+    </html>

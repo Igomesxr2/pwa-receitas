@@ -33,6 +33,12 @@ header{
     height: 400px;
 }
 
+.content h2{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: bold;
+}
 
 .cards{
     display: flex;
@@ -60,4 +66,11 @@ header{
 .card-images:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    margin-top: 20px;
 }
